@@ -24,14 +24,16 @@ JavaScript (ES6) (Core game logic, event listeners, and DOM updates)
 🚀 How to Play
 Clone the repository:
 
-Bash
-
+```bash
 git clone https://github.com/aryandevra24/Guessing-Number.git
+```
+
 Navigate to the project directory:
 
-Bash
-
+```bash
 cd Guessing-Number
+```
+
 Open index.html in your web browser.
 
 Enter your guess in the input field and click "Submit Guess."
