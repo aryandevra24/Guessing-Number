@@ -1,9 +1,9 @@
-# Number Guessing Game 🔢
+# Number Guessing Game 🔢  
 
 This is an interactive web game where the user tries to guess a randomly generated number. It's an excellent project for practicing basic DOM manipulation, event handling, and game logic in JavaScript.
 ---
 
-## ✨ Features
+## ✨ Features  
 
 **Random Number Generation**: A new secret number is generated every time the game starts.
 
@@ -18,7 +18,8 @@ This is an interactive web game where the user tries to guess a randomly generat
 **Input Validation**: Ensures the user enters a valid number within the 1-100 range.
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Technologies Used  
+
 **HTML5** (Game structure and UI elements)
 
 **CSS3** (Basic styling and centered layout using Flexbox)
@@ -26,7 +27,7 @@ This is an interactive web game where the user tries to guess a randomly generat
 **JavaScript (ES6)** (Core game logic, event listeners, and DOM updates)
 ---
 
-## 🚀 How to Play
+## 🚀 How to Play  
 
 Clone the repository:
 
@@ -47,7 +48,7 @@ Enter your guess in the input field and click "Submit Guess."
 Follow the hints!
 ---
 
-## 📝 Game Logic Highlights
+## 📝 Game Logic Highlights  
 
 The game is controlled by several key JavaScript functions:
 
