@@ -66,3 +66,4 @@ The game is controlled by several key JavaScript functions:
 
 **newGame()**: Resets all variables and removes the "Start Over" button to prepare for a new round.
 
+---
