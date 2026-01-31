@@ -1,27 +1,33 @@
-Number Guessing Game 🔢
+# Number Guessing Game 🔢
+
 This is an interactive web game where the user tries to guess a randomly generated number. It's an excellent project for practicing basic DOM manipulation, event handling, and game logic in JavaScript.
+---
 
-✨ Features
-Random Number Generation: A new secret number is generated every time the game starts.
+## ✨ Features
 
-Attempt Tracking: Users are given 10 attempts to guess the correct number.
+**Random Number Generation**: A new secret number is generated every time the game starts.
 
-Hints: Provides feedback ("Too High," "Too Low," or "You Guessed It Right!").
+**Attempt Tracking**: Users are given 10 attempts to guess the correct number.
 
-Guess History: Keeps a running list of previous guesses.
+**Hints**: Provides feedback ("Too High," "Too Low," or "You Guessed It Right!").
 
-"Start Over" Button: Appears at the end of the game to easily restart without a page refresh.
+**Guess History**: Keeps a running list of previous guesses.
 
-Input Validation: Ensures the user enters a valid number within the 1-100 range.
+**"Start Over" Button**: Appears at the end of the game to easily restart without a page refresh.
 
-⚙️ Technologies Used
-HTML5 (Game structure and UI elements)
+**Input Validation**: Ensures the user enters a valid number within the 1-100 range.
+---
 
-CSS3 (Basic styling and centered layout using Flexbox)
+## ⚙️ Technologies Used
+**HTML5** (Game structure and UI elements)
 
-JavaScript (ES6) (Core game logic, event listeners, and DOM updates)
+**CSS3** (Basic styling and centered layout using Flexbox)
 
-🚀 How to Play
+**JavaScript (ES6)** (Core game logic, event listeners, and DOM updates)
+---
+
+## 🚀 How to Play
+
 Clone the repository:
 
 ```bash
@@ -39,17 +45,19 @@ Open index.html in your web browser.
 Enter your guess in the input field and click "Submit Guess."
 
 Follow the hints!
+---
 
-📝 Game Logic Highlights
+## 📝 Game Logic Highlights
+
 The game is controlled by several key JavaScript functions:
 
-validateGuess(): Checks if the input is a valid number between 1 and 100.
+**validateGuess()**: Checks if the input is a valid number between 1 and 100.
 
-checkGuess(): Compares the user's guess to the secret number and provides a hint.
+**checkGuess()**: Compares the user's guess to the secret number and provides a hint.
 
-displayGuess(): Updates the remaining attempts and the list of previous guesses.
+**displayGuess()**: Updates the remaining attempts and the list of previous guesses.
 
-endGame(): Disables the input/submit button and adds the "Start Over" button.
+**endGame()**: Disables the input/submit button and adds the "Start Over" button.
 
-newGame(): Resets all variables and removes the "Start Over" button to prepare for a new round.
+**newGame()**: Resets all variables and removes the "Start Over" button to prepare for a new round.
 
